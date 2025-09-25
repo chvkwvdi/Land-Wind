@@ -618,17 +618,21 @@ button:hover {
     border-bottom: 1px solid #808080;
     background-color: #ffffff;
     position: fixed;
+    justify-content: center;
+    align-items: center;
   }
   .logo-img {
     display: flex;
-    margin: 0 7px;
+    margin: 0 10px;
   }
 
   .logo-img img {
     margin-top: 12px;
+    float: left;
   }
   .inline {
     display: flex;
+    gap: 20px;
   }
   .inline ul {
     display: flex;
@@ -644,7 +648,6 @@ button:hover {
   .inline-button {
     display: flex;
     gap: 20px;
-    margin-left: 18px;
   }
 
   .inline-button p a {
